@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file calculaNormales.cu...
+  
+  I:\Fase 4\Normales\Proyecto Pr4\ProjectoCuda\Projecto>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\calculaNormales.cu.obj "I:\Fase 4\Normales\Proyecto Pr4\ProjectoCuda\Projecto\calculaNormales.cu" 
+  calculaNormales.cu
+I:/Fase 4/Normales/Proyecto Pr4/ProjectoCuda/Projecto/calculaNormales.cu(110): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+I:/Fase 4/Normales/Proyecto Pr4/ProjectoCuda/Projecto/calculaNormales.cu(111): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+I:/Fase 4/Normales/Proyecto Pr4/ProjectoCuda/Projecto/calculaNormales.cu(112): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+  Projecto.vcxproj -> I:\Fase 4\Normales\Proyecto Pr4\ProjectoCuda\Debug\Projecto.exe
